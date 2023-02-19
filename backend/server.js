@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: false })); // To use Postman data in cons
 
 // app.use(cors({})); // Now any frontend can access this backend
 app.use(cors({
-  origin: ["http://localhost:3000/", "http://mern-task-app.onrender.com" ]
+  origin: ["http://localhost:3000/", "https://mern-task-app-2ql0.onrender.com" ]
 }));
 // app.use(taskRoutes);
 app.use("/api/tasks", taskRoutes);
